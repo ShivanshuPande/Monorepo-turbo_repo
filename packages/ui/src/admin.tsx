@@ -1,7 +1,7 @@
-export function Admin () {
+export  function Admin () {
     return (
         <div>
-            Admin page
+            This text is from the Admin Page
         </div>
     )
 }

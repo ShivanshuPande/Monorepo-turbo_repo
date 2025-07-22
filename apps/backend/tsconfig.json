@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "lib": ["ES2015"],
-    "module": "NodeNext",
+    "module": "nodenext",
     "outDir": "./dist",
-    "rootDir": "./rsc"
+    "rootDir": "./src"
   },
   "exclude": ["node_modules"],
   "extends": "@repo/typescript-config/base.json",

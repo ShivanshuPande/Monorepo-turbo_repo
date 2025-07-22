@@ -2,6 +2,7 @@ import express from "express";
 const app = express();
 
 
+
 app.use(express.json())
 
 app.get("/" , (req ,res)=>{
@@ -9,3 +10,5 @@ app.get("/" , (req ,res)=>{
         message : "Hello world"
     })
 })
+
+app.listen(3666);

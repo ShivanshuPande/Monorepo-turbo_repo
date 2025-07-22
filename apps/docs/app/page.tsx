@@ -35,7 +35,7 @@ export default function Home() {
           <li>
             Get started by editing <code>apps/docs/app/page.tsx</code>
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>This Hi is from the docs brp</li>
         </ol>
 
         <div className={styles.ctas}>
@@ -95,6 +95,7 @@ export default function Home() {
             height={16}
           />
         </a>
+
       </footer>
     </div>
   );

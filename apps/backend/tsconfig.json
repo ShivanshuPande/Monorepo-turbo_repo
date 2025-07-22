@@ -1,11 +1,7 @@
-{
+{  
+  "extends" : "@repo/typescript-config/base.json", 
   "compilerOptions": {
-    "lib": ["ES2015"],
-    "module": "nodenext",
-    "outDir": "./dist",
-    "rootDir": "./src"
-  },
-  "exclude": ["node_modules"],
-  "extends": "@repo/typescript-config/base.json",
-  "include": ["src"]
+    "rootDir": "./src" ,
+    "outDir": "./dist"
+  }
 }
